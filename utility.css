@@ -1,0 +1,83 @@
+:root
+{
+    --primarycolor : #ffffff;
+    --secondarycolor : #656565;
+    --tertiarycolor : #191919;
+    --fourthcolor : #2a2a2a;
+    --fifthcolor : #000;
+}
+.border
+{
+    border : 2px solid var(--fifthcolor);
+}
+.flex
+{
+    display: flex;
+
+}
+.justify-center
+{
+    justify-content: center;
+}
+.space-between
+{
+    justify-content: space-between;
+}
+.align-item
+{
+    align-items: center;
+}
+.logo
+{
+    height: 25px;
+    /* transform: translateY(10px); */
+}
+
+.search_coll .logo
+{
+       position: relative;
+    transform: translateY(10px);
+    margin : 0px 10px;
+    /* transform: translate(45px, 10px); */
+
+    }
+.searchlogo
+    {
+
+        position:relative;
+    }
+.button-size
+{
+    width : 90px;
+    height : 40px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+.noborder
+{
+    border : none;
+}
+.whiteborder
+{
+    border : 1px solid white;
+}
+.invert
+{
+    filter: invert(1);
+}
+.colorwhite
+{
+    color : white;
+}
+.blackbackground
+{
+    background-color: black;
+}
+.teritorycolor
+{
+    background-color: var(--tertiarycolor);
+}
+.whitebackground
+{
+    background-color: white;
+}
